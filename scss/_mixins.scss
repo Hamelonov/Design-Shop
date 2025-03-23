@@ -1,0 +1,6 @@
+@mixin min-max($min, $max) {
+    min-width: $min;
+    max-width: $max;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

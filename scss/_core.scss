@@ -1,0 +1,17 @@
+.wrap {
+    @include min-max(320px, 1895px);
+}
+
+body {
+    font-family: 'Inter';
+}
+
+html,body {
+    overflow-x: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

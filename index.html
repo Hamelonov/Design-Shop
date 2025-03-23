@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shop</title>
+</head>
+<body>
+    <div class="wrap">
+        
+        <header class="header">
+            <div class="header__mobile">
+                <img src="img/menu.png" alt="">
+                <img src="img/search.png" alt="">
+            </div>
+            <h1 class="header__title">ДИЗАЙНЕРСКИЕ ДИВАНЫ</h1>
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item"><a href="#">Угловые дизайнерские диваны</a></li>
+                    <li class="header__menu-item"><a href="#">Дизайнерские диваны для гостинной</a></li>
+                    <li class="header__menu-item"><a href="#">Угловые дизайнерские диваны</a></li>
+                    <li class="header__menu-item"><a href="#">...</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            
+            <div class="content__top">
+                <div class="presense">
+                    <input type="checkbox" class="switcher">
+                    <span>В наличии</span>
+                </div>
+                <img src="img/filter.png" class="hamburger" alt="">
+            </div>
+
+            <div class="content__row">
+
+                <aside class="sidebar">
+
+                    <img src="img/cross.svg" class="sidebar__cross" alt="">
+                    <div class="presense">
+                        <input type="checkbox" class="switcher">
+                        <span>В наличии</span>
+                    </div>
+                    
+                    <div id="price">
+                        <select class="select">
+                            <option>Цена, в рублях</option>
+                            <option>Цена, в долларах</option>
+                            <option>Цена, в евро</option>
+                            <option>Цена, в фунтах</option>
+                        </select>
+    
+                        <div class="range">
+                            <div class="range__box">
+                                <input type="text" class="range__value" value="87600">
+                                <input type="text" class="range__value" value="507100">
+                            </div>
+                            <div class="range-slider">
+                                <input type="range" id="range-min" value="0" min="0" max="100" step="1">
+                                <input type="range" id="range-max" value="100" min="0" max="100" step="1">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="mechanism">
+                        <select class="select">
+                            <option value="1">Механизм</option>
+                            <option value="1">Второй пункт</option>
+                            <option value="1">Третий пункт</option>
+                        </select>
+                        <div class="radios">
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio1">
+                                <span class="radios__text">Американская раскладушка</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio1">
+                                <span class="radios__text">Выкатной (вагон)</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio1">
+                                <span class="radios__text">Выкатной (книжка)</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio1">
+                                <span class="radios__text">Французская раскладушка</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio1">
+                                <span class="radios__text">Шагающая еврокнижка</span>
+                            </label>
+                        </div>
+                    </div>
+    
+                    <div id="size">
+                        <select class="select">
+                            <option>Габаритная ширина, см</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+    
+                        <div class="range">
+                            <div class="range__box">
+                                <input type="text" class="range__value" value="87600">
+                                <input type="text" class="range__value" value="507100">
+                            </div>
+                            <div class="range-slider">
+                                <input type="range" id="range-min" value="0" min="0" max="100" step="1">
+                                <input type="range" id="range-max" value="100" min="0" max="100" step="1">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div id="colors">
+    
+                        <select class="select">
+                            <option>Цвет</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+    
+                        <div class="radios">
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Бежевый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Белый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Жёлтый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Зелёный</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Коричневый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Красный</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Оранжевый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Розовый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Серый</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Синий</span>
+                            </label>
+                            <label class="radios__label">
+                                <input type="radio" class="radios__radio" name="radio2">
+                                <span class="radios__text">Феолетовый</span>
+                            </label>
+                        </div>
+    
+                    </div>
+    
+                    <div id="selects">
+                        <select class="select">
+                            <option>Ширина сиденья, см</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Глубина сиденья, см</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Размер спального места</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Коллекция</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Бельевой ящик</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Материал опор</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Высота опор, см</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Ширина подлокотника, см</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Особенности</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>Тип дивана</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                        <select class="select">
+                            <option>По стилю</option>
+                            <option>Второй пункт</option>
+                            <option>Третий пункт</option>
+                        </select>
+                    </div>
+                </aside>
+    
+                <div class="page">
+                    <ul class="page__filter">
+                        <li class="page__filter-item">Выводить сначала:</li>
+                        <li class="page__filter-item"><a href="#">по умолчанию</a></li>
+                        <li class="page__filter-item"><a href="#">по возрастанию цены</a></li>
+                        <li class="page__filter-item"><a href="#">по убыванию цены</a></li>
+                    </ul>
+    
+                    <div class="page__row">
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+    
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+    
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/1.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/2.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/3.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                        <div class="product">
+                            <div class="product__img">
+                                <img src="img/4.jpg" alt="">
+                            </div>
+                            <div class="product__name">
+                                <p>STRIPES</p>
+                                <span>диван</span>
+                            </div>
+                            <p class="product__price">390.000 RUB – 545.000 RUB</p>
+                            <a href="#" class="product__btn">В корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
